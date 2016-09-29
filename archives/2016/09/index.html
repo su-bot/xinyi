@@ -37,15 +37,17 @@
 
   <!-- Title -->
   
-  <title>Archives: 2016/9 - Xinyi</title>
+  <title>彙整：2016/9 - Xinyi</title>
 
 
   <link rel="shortcut icon" href="https://hexo.io/icon/favicon-96x96.png">
 
   <!-- Custom CSS/Sass -->
-  <link rel="stylesheet" href="../../../css/normalize.css">
-  <link rel="stylesheet" href="../../../css/simple-grid.min.css">
-  <link rel="stylesheet" href="../../../css/xinyi.css">
+  <link rel="stylesheet" href="/xinyi/css/normalize.css">
+  <link rel="stylesheet" href="/xinyi/css/simple-grid.min.css">
+  <link rel="stylesheet" href="/xinyi/css/xinyi.css">
+  <script src="/xinyi/js/zepto.min.js"></script>
+  <script src="/xinyi/js/script.js"></script>
 
 </head>
 
@@ -63,69 +65,25 @@
       
       
         <li>
-          <a href="../../../.">
-            HOME
+          <a href="/xinyi/." onclick="navScrollTo(this)">
+            home
           </a>
         </li>
       
         <li>
-          <a href="../..">
-            ARCHIVE
+          <a href="/xinyi/.#anchor-subheadline" onclick="navScrollTo(this)">
+            archive
           </a>
         </li>
       
         <li>
-          <a href="../../../about">
-            ABOUT
+          <a href="/xinyi/about" onclick="navScrollTo(this)">
+            about
           </a>
         </li>
       
     </ul>
   </nav>
-  <!-- <div class="header-inside">
-    <div class="logo">
-      <a href="/" rel="home">
-        
-        <img src="https://hexo.io/logo.svg" alt="Xinyi" height="60">
-        
-      </a>
-    </div>
-    <nav class="navbar">
-      <div class="collapse">
-        <ul class="navbar-nav">
-          
-          
-            <li>
-              <a href="../../../.">
-                
-                  home
-                
-              </a>
-            </li>
-          
-            <li>
-              <a href="../..">
-                
-                  archive
-                
-              </a>
-            </li>
-          
-            <li>
-              <a href="../../../about">
-                
-                  about
-                
-              </a>
-            </li>
-          
-        </ul>
-      </div>
-    </nav>
-    <div class="button-wrap">
-      <button class="menu-toggle">Primary Menu</button>
-    </div>
-  </div> -->
 </header>
 
 
@@ -147,24 +105,6 @@
             
   <li>
     <span class="date">
-      2016-09-21
-    </span>
-    <a href="/xinyi/2016/09/21/hello-world/" class="title">
-      Hello World
-    </a>
-  </li>
-
-  <li>
-    <span class="date">
-      2016-09-21
-    </span>
-    <a href="/xinyi/2016/09/21/555/" class="title">
-      555
-    </a>
-  </li>
-
-  <li>
-    <span class="date">
       2016-09-28
     </span>
     <a href="/xinyi/2016/09/28/999/" class="title">
@@ -176,8 +116,8 @@
     <span class="date">
       2016-09-21
     </span>
-    <a href="/xinyi/2016/09/21/444/" class="title">
-      444
+    <a href="/xinyi/2016/09/21/555/" class="title">
+      555
     </a>
   </li>
 
@@ -194,8 +134,8 @@
     <span class="date">
       2016-09-21
     </span>
-    <a href="/xinyi/2016/09/21/111/" class="title">
-      111
+    <a href="/xinyi/2016/09/21/444/" class="title">
+      444
     </a>
   </li>
 
@@ -205,6 +145,24 @@
     </span>
     <a href="/xinyi/2016/09/21/222/" class="title">
       222
+    </a>
+  </li>
+
+  <li>
+    <span class="date">
+      2016-09-21
+    </span>
+    <a href="/xinyi/2016/09/21/111/" class="title">
+      111
+    </a>
+  </li>
+
+  <li>
+    <span class="date">
+      2016-09-21
+    </span>
+    <a href="/xinyi/2016/09/21/hello-world/" class="title">
+      Hello World
     </a>
   </li>
 
@@ -222,8 +180,8 @@
 
   <!-- After footer scripts -->
   <!-- scripts -->
-<script src="//cdn.bootcss.com/zepto/1.2.0/zepto.min.js"></script>
-<script src="/js/app.js"></script>
+<script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+<script src="/js/script.js"></script>
 
 
 

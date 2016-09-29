@@ -43,9 +43,11 @@
   <link rel="shortcut icon" href="https://hexo.io/icon/favicon-96x96.png">
 
   <!-- Custom CSS/Sass -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/simple-grid.min.css">
-  <link rel="stylesheet" href="css/xinyi.css">
+  <link rel="stylesheet" href="/xinyi/css/normalize.css">
+  <link rel="stylesheet" href="/xinyi/css/simple-grid.min.css">
+  <link rel="stylesheet" href="/xinyi/css/xinyi.css">
+  <script src="/xinyi/js/zepto.min.js"></script>
+  <script src="/xinyi/js/script.js"></script>
 
 </head>
 
@@ -63,69 +65,25 @@
       
       
         <li>
-          <a href=".">
-            HOME
+          <a href="/xinyi/." onclick="navScrollTo(this)">
+            home
           </a>
         </li>
       
         <li>
-          <a href="archives">
-            ARCHIVE
+          <a href="/xinyi/.#anchor-subheadline" onclick="navScrollTo(this)">
+            archive
           </a>
         </li>
       
         <li>
-          <a href="about">
-            ABOUT
+          <a href="/xinyi/about" onclick="navScrollTo(this)">
+            about
           </a>
         </li>
       
     </ul>
   </nav>
-  <!-- <div class="header-inside">
-    <div class="logo">
-      <a href="/" rel="home">
-        
-        <img src="https://hexo.io/logo.svg" alt="Xinyi" height="60">
-        
-      </a>
-    </div>
-    <nav class="navbar">
-      <div class="collapse">
-        <ul class="navbar-nav">
-          
-          
-            <li>
-              <a href=".">
-                
-                  home
-                
-              </a>
-            </li>
-          
-            <li>
-              <a href="archives">
-                
-                  archive
-                
-              </a>
-            </li>
-          
-            <li>
-              <a href="about">
-                
-                  about
-                
-              </a>
-            </li>
-          
-        </ul>
-      </div>
-    </nav>
-    <div class="button-wrap">
-      <button class="menu-toggle">Primary Menu</button>
-    </div>
-  </div> -->
 </header>
 
 
@@ -137,14 +95,14 @@
     </div>
   </div>
 
-  <div class="subheadline">
+  <div class="subheadline" id="anchor-subheadline">
     
     
       
         <div class="row">
       
           <div class="col-3 item">
-  <a href="2016/09/28/999/">
+  <a href="/xinyi/2016/09/28/999/">
   
     <img src="http://placekitten.com/g/150" alt="">
   
@@ -174,19 +132,19 @@
     
       
           <div class="col-3 item">
-  <a href="2016/09/21/222/">
+  <a href="/xinyi/2016/09/21/hello-world/">
   
     <img src="http://placekitten.com/g/150" alt="">
   
   </a>
-  <span>222</span>
+  <span>Hello World</span>
 </div>
 <!-- <div class="container">
   <article class="post">
     
     <h1 class="entry-title">
-      <a href="/xinyi/2016/09/21/222/" rel="bookmark">
-        222
+      <a href="/xinyi/2016/09/21/hello-world/" rel="bookmark">
+        Hello World
       </a>
     </h1>
     
@@ -204,7 +162,7 @@
     
       
           <div class="col-3 item">
-  <a href="2016/09/21/111/">
+  <a href="/xinyi/2016/09/21/111/">
   
     <img src="http://placekitten.com/g/150" alt="">
   
@@ -246,19 +204,19 @@
     
       
           <div class="col-3 item">
-  <a href="2016/09/21/333/">
+  <a href="/xinyi/2016/09/21/222/">
   
     <img src="http://placekitten.com/g/150" alt="">
   
   </a>
-  <span>333</span>
+  <span>222</span>
 </div>
 <!-- <div class="container">
   <article class="post">
     
     <h1 class="entry-title">
-      <a href="/xinyi/2016/09/21/333/" rel="bookmark">
-        333
+      <a href="/xinyi/2016/09/21/222/" rel="bookmark">
+        222
       </a>
     </h1>
     
@@ -280,7 +238,7 @@
         <div class="row">
       
           <div class="col-3 item">
-  <a href="2016/09/21/444/">
+  <a href="/xinyi/2016/09/21/444/">
   
     <img src="http://placekitten.com/g/150" alt="">
   
@@ -310,7 +268,37 @@
     
       
           <div class="col-3 item">
-  <a href="2016/09/21/555/">
+  <a href="/xinyi/2016/09/21/333/">
+  
+    <img src="http://placekitten.com/g/150" alt="">
+  
+  </a>
+  <span>333</span>
+</div>
+<!-- <div class="container">
+  <article class="post">
+    
+    <h1 class="entry-title">
+      <a href="/xinyi/2016/09/21/333/" rel="bookmark">
+        333
+      </a>
+    </h1>
+    
+
+    <p class="posted-on">
+    2016-09-21
+    </p>
+    <div class="tags-links">
+      
+    </div>
+  </article>
+</div> -->
+
+      
+    
+      
+          <div class="col-3 item">
+  <a href="/xinyi/2016/09/21/555/">
   
     <img src="http://placekitten.com/g/150" alt="">
   
@@ -338,36 +326,6 @@
 
       
     
-      
-          <div class="col-3 item">
-  <a href="2016/09/21/hello-world/">
-  
-    <img src="http://placekitten.com/g/150" alt="">
-  
-  </a>
-  <span>Hello World</span>
-</div>
-<!-- <div class="container">
-  <article class="post">
-    
-    <h1 class="entry-title">
-      <a href="/xinyi/2016/09/21/hello-world/" rel="bookmark">
-        Hello World
-      </a>
-    </h1>
-    
-
-    <p class="posted-on">
-    2016-09-21
-    </p>
-    <div class="tags-links">
-      
-    </div>
-  </article>
-</div> -->
-
-      
-    
     
         </div> <!-- row -->
     
@@ -380,8 +338,8 @@
 
   <!-- After footer scripts -->
   <!-- scripts -->
-<script src="//cdn.bootcss.com/zepto/1.2.0/zepto.min.js"></script>
-<script src="/js/app.js"></script>
+<script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+<script src="/js/script.js"></script>
 
 
 
